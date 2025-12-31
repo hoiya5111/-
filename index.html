@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>ส่งข้อความถึงเรา</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+
+<nav class="menu">
+  <h1>📩 Message Box</h1>
+</nav>
+
+<div class="box">
+  <h2>ส่งข้อความ</h2>
+  <input id="name" placeholder="ชื่อของคุณ">
+  <textarea id="message" placeholder="พิมพ์ข้อความ"></textarea>
+  <button onclick="sendMessage()">ส่งข้อความ</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
